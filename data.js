@@ -56,140 +56,97 @@ export const skills = [
 export const projects = {
   webProjects: [
     {
-      projectName: "Programming Diaries",
-      image: "images/programmingdiaries.png",
+      projectName: "Qalam Odoo Form Filler",
+      image: "images/qalam_form_filler.png", // Add an image path here
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+        "Developed a form filler tool for Qalam Odoo using Scrapy and XPath to automate the completion of feedback forms.",
+      preview: "https://github.com/MasterChief220/qalam-form-filler",
+      techStack: ["Scrapy", "XPath", "Python"],
     },
     {
-      projectName: "Find Your Bank",
-      image: "images/findyourbank.png",
+      projectName: "Personal Blog",
+      image: "images/blog.png", // Add an image path here
       summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+        "Created a blog using Jekyll and Ruby to share insights and experiences in cybersecurity and technology.",
+      preview: "https://github.com/MasterChief220/Blog",
+      techStack: ["Jekyll", "Ruby"],
     },
     {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
+      projectName: "Portfolio Website",
+      image: "images/portfolio.png", // Add an image path here
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-    {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
-      summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "Developed a personal portfolio website to showcase projects, skills, and contact information.",
+      preview: "https://github.com/MasterChief220/vinaysomawat.github.io",
+      techStack: ["HTML", "CSS", "JavaScript"],
     },
   ],
-  softwareProjects: [
+  cybersecurityProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "Elastic Stack Setup",
+      image: "images/elastic_stack.png", // Add an image path here
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
+        "Configured Elasticsearch, Kibana, Auditbeat, and Winlogbeat for log analysis and visualization.",
+      preview: "", // No preview available
+      techStack: ["Elasticsearch", "Kibana", "Auditbeat", "Winlogbeat"],
     },
     {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
+      projectName: "PCAP Analysis with Snort and Zeek",
+      image: "images/pcap_analysis.png", // Add an image path here
       summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "Conducted real-time log analysis using Snort and Zeek, including custom rule writing.",
+      preview: "", // No preview available
+      techStack: ["Snort", "Zeek", "PCAP"],
     },
   ],
-  androidProjects: [
+  cybersecurityProjects1: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "Metasploitable Setup and Exploitation",
+      image: "images/metasploitable.png", // Add an image path here
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
-    },
-    {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
-      summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "Set up Metasploitable for penetration testing and successfully exploited vulnerabilities.",
+      preview: "", // No preview available
+      techStack: ["Metasploitable", "Metasploit"],
     },
   ],
-  freelanceProjects: [
+  machinelearningandvisionprojects: [
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "Vision Car Counter",
+      image: "images/car_counter.png", // Add an image path here
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-    },
-    {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
-      preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+        "Developed a computer vision application to count cars in a video feed using a Haar Cascade classifier.",
+      preview: "https://github.com/MasterChief220/Computer-Vision-Car-Counter",
+      techStack: ["OpenCV", "Python", "Haar Cascade"],
     },
   ],
 };
 
 export const experience = [
   {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "truck ",
+    title: "National Radio and Telecommunications Corporation",
+    duration: "September 2024 - Present",
+    subtitle: "Assistant Executive Engineer",
+    details: ["Working in Cybersecurity Team."],
+    tags: ["SOC Analyst", "Blue Team", "SIEM"],
+    icon: "truck",
   },
   {
-    title: "Biofourmis India Private Limited",
+    title: "Lucky Electric Power Company Limited",
     duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    subtitle: "Internee",
     details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
-      `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
-            and enhancing features.`,
+      `Completed a 6-week internship under Harbin Electric’s O&M contract at Lucky Power Plant.`,
+      `Rotated through critical areas including coal handling, water treatment, flue gas desulfurization, and the boiler-turbine-generator unit.`,
+      `Gained hands-on experience with the intricate coal handling process, including the operation of a stacker-reclaimer.`,
+      `Engaged in water treatment from seawater intake and performed chemical tests such as oxygen bomb testing and proximate analysis.`,
+      `Observed the flue gas neutralization process using limestone slurry, with gypsum produced as a byproduct.`,
+      `Learned the boiler start-up procedure, utilizing an oil pump to initiate combustion before coal feeding.`,
+      `Understood the operation of Induced Draft Fans (IDF) and Forced Draft Fans (FDF), and their roles in maintaining optimal boiler operation.`,
     ],
     tags: [
-      "JavaScript",
-      "Angular",
-      "RxJS",
-      "NGXS",
-      "TypeScript",
-      "RxState",
-      "Webpack",
-      "Optimization",
+      "Electrical",
+      "Instrumentation",
+      "System Monitoring",
+      "Distributed Control System (DCS)",
     ],
     icon: "heartbeat",
   },

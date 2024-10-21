@@ -1,39 +1,43 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
-  "Thanks for visiting!",
+  "",
 ];
 
 export const skills = [
   {
-    title: "Languages",
-    skillName: "JavaScript, TypeScript",
-    color: "1",
+    title: "Blue-Team Operations",
+    skillName: "Zeek, SNORT, Splunk, Elastic SIEM, Wazuh, Yara, Osquery",
+    color: "7",
     percentage: "80",
   },
   {
-    title: "Frameworks/Libraries",
-    skillName: "Angular, RxJS, NGRX/NGXS",
-    color: "6",
+    title: "Pentesting Tools",
+    skillName: "Nmap, Burp Suite, Metasploit, Wireshark, Dirbuster/Gobuster, Nessus, John the Ripper",
+    color: "",
     percentage: "70",
   },
   {
-    title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    title: "Languages",
+    skillName: "JavaScript, Python, Bash, C++, MySQL, HTML",
+    color: "1",
+    percentage: "70",
+  },
+  {
+    title: "Frameworks/Libraries",
+    skillName: "React, Tensorflow, Pytorch, Numpy, Pandas",
+    color: "6",
+    percentage: "40",
+  },
+  {
+    title: "Creative Media Production",
+    skillName: "Audacity, Adobe After Effects, Adobe Photoshop, Adobe Premier, Adobe Illustrator",
     color: "4",
     percentage: "70",
   },
   {
-    title: "Version Control",
-    skillName: "GitHub, JIRA, Bitbucket",
-    color: "7",
-    percentage: "70",
-  },
-  {
-    title: "Tools",
-    skillName: "Debugging, Chrome DevTools",
-    color: "3",
-    percentage: "80",
+    title: "Version Control and IDEs",
+    skillName: "Git, GitHub, Jupyter, VsCode, PyCharm",
+    color: "5",
+    percentage: "60",
   },
 //   {
 //     title: "Analytics",
